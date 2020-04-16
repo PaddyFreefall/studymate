@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ff365_studymate_feffe</Name>
+  <AppVersion>2020-04-05T21:47:00Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.20023.7.0</CreatedByClientVersion>
+  <MinClientVersion>3.20023.7.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"b9d574e6-160f-48b5-aeb4-7989f865bc3f","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20023.7","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>Study Mate</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"Exams":{"entitySetName":"ff365_exams","logicalName":"ff365_exam"},"Exam Categories":{"entitySetName":"ff365_examcategories","logicalName":"ff365_examcategory"},"Cards":{"entitySetName":"ff365_cards","logicalName":"ff365_card"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"}}}}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"ff365_exam","componenttype":1},{"logicalname":"ff365_examcategory","componenttype":1},{"logicalname":"ff365_card","componenttype":1},{"logicalname":"systemuser","componenttype":1}]}</CdsDependencies>
+  <BackgroundImageUri>/CanvasApps/ff365_studymate_feffe_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/ff365_studymate_feffe_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.15941" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>StudyMate</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Study Mate" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.2</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>freefall365</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Freefall365" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ff365</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>14530</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ff365_answer" behavior="0" />
+      <RootComponent type="1" schemaName="ff365_card" behavior="0" />
+      <RootComponent type="1" schemaName="ff365_certification" behavior="0" />
+      <RootComponent type="1" schemaName="ff365_exam" behavior="0" />
+      <RootComponent type="1" schemaName="ff365_examcategory" behavior="0" />
+      <RootComponent type="9" schemaName="ff365_cardtype" behavior="0" />
+      <RootComponent type="29" id="{7e359a3e-326c-ea11-a812-000d3a86ba0b}" behavior="0" />
+      <RootComponent type="60" id="{9e8b5d15-667b-4da7-93e9-144ee80b6642}" behavior="0" />
+      <RootComponent type="60" id="{ed474592-ffdd-4d0a-81eb-161c3b2dc012}" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_CardsOk-WF.png" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_CardsOk-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_CardsOk-WF16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Category-WF.png" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Category-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Category-WF16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Certificate01-WF.png" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Certificate01-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Certificate01-WF16.png" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Check-01-WF.png" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Check-01-WF.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_Check-01-WF16.png" behavior="0" />
+      <RootComponent type="62" schemaName="ff365_StudyMateAdmin" behavior="0" />
+      <RootComponent type="80" schemaName="ff365_StudyMateAdmin" behavior="0" />
+      <RootComponent type="300" schemaName="ff365_studymate_feffe" behavior="0" />
+      <RootComponent type="431" schemaName="ff365_card ff365_supportingimage" behavior="0" />
+      <RootComponent type="431" schemaName="ff365_exam ff365_logo" behavior="0" />
+      <RootComponent type="432" schemaName="ff365_card" behavior="0" />
+      <RootComponent type="432" schemaName="ff365_exam" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="66" schemaName="MscrmControls.WebsitePreview.PreviewControl" displayName="MscrmControls.WebsitePreview.PreviewControl" solution="CustomControlsCore (9.1.0000.15941)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Exam" id="{9e8b5d15-667b-4da7-93e9-144ee80b6642}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="66" schemaName="MscrmControls.WebsitePreview.PreviewControl" displayName="MscrmControls.WebsitePreview.PreviewControl" solution="CustomControlsCore (9.1.0000.15941)" />
+        <Dependent key="2" type="60" displayName="Information" parentDisplayName="Card" id="{ed474592-ffdd-4d0a-81eb-161c3b2dc012}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="4" type="80" schemaName="ff365_StudyMateAdmin" displayName="Study Mate Admin" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

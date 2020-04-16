@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ed474592-ffdd-4d0a-81eb-161c3b2dc012}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{898d9bb5-a19e-4107-a6dd-14aee9c79186}" IsUserDefined="1" name="general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="35%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{dddfca76-f698-4743-a57b-878b62fa08bd}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aea408cf-74d8-4f7f-9004-30583ffd598f}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ff365_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4ce98a7-77a6-41be-95d7-718c58a4dc68}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_category" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ff365_category" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="general_Source" id="bfb2fde9-5f05-45c5-894b-109c9c7a85d2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="SOURCE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{9bcdc7f6-065a-481c-88d1-f35c3765cd7a}">
+                        <labels>
+                          <label description="Source URL" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_sourceurl" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ff365_sourceurl" disabled="false" uniqueid="{cafd8434-526f-411a-a9f8-ef75971a2e22}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3330d131-959b-85a5-1685-e4787725eab8}" showlabel="true" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="Source Description" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_sourcedescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ff365_sourcedescription" disabled="false" uniqueid="{3cb3c3d1-8a6c-be01-5e4d-840da8938040}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="65%">
+              <sections>
+                <section name="general_section_4" id="6be77b2e-a548-4c33-b088-47d4a7d26505" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="CARD TEXT" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{12a93ea2-2d52-38dd-d65c-cd12271dddee}" showlabel="false" locklevel="0" rowspan="10">
+                        <labels>
+                          <label description="Card Text" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_cardtext" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ff365_cardtext" disabled="false" uniqueid="{74a2e425-0470-d6db-125a-e92a362146ac}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{90490ddb-f868-4ee6-80ff-6e5542f17dff}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d149af06-ac41-486e-858d-7e56521b93e5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5dda6df0-b102-4e92-af8d-0d28632938f8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7575b6c1-e40e-4925-9658-c60555ac4b3d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{67965b0b-7e6b-4b68-ba08-7cc3875eaa41}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Last Viewed" languagecode="1033" />
+              </labels>
+              <control id="header_ff365_lastviewed" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ff365_lastviewed" disabled="false" />
+            </cell>
+            <cell id="{28d89f60-93c4-4c97-9cde-5ab0021d32f6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{84c16cf4-6551-446e-a6b5-ac3ec9c41281}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{718a94dd-e1fa-4c1b-9ece-cede3f31e4f6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{bbfa5331-be34-4755-8069-3eb7ab6763c4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b9f74d8d-e3f0-416a-9ac0-1003f864944b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b720c917-69c0-419d-99d9-c7d952dba2c5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ec65e4c4-e4fa-407d-84b4-d2e69cf2666b}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+            </cell>
+            <cell id="{0d5dbcfb-b160-4d9f-87d6-1b995a29caf9}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+            </cell>
+            <cell id="{be0abcd9-ad71-48c3-ad30-31ac311fbe11}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{e38fe600-0b25-40a1-be9f-b6e29b7030de}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{cafd8434-526f-411a-a9f8-ef75971a2e22}">
+          <customControl id="{71716B6C-711E-476C-8AB8-5D11542BFB47}">
+            <parameters>
+              <datafieldname>ff365_sourceurl</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.WebsitePreview.PreviewControl">
+            <parameters>
+              <value>ff365_sourceurl</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.WebsitePreview.PreviewControl">
+            <parameters>
+              <value>ff365_sourceurl</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.WebsitePreview.PreviewControl">
+            <parameters>
+              <value>ff365_sourceurl</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
