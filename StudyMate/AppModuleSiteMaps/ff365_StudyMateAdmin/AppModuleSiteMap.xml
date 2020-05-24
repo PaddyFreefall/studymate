@@ -11,6 +11,7 @@
           <Title LCID="1033" Title="Admin" />
         </Titles>
         <SubArea Id="NewSubArea_099854ab" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ff365_exam" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_20568293" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ff365_card" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
       </Group>
     </Area>
   </SiteMap>

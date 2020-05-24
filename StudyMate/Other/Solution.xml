@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.15941" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.17736" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>StudyMate</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Study Mate" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.2</Version>
+    <Version>1.0.0.6</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>freefall365</UniqueName>
@@ -109,11 +109,11 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="66" schemaName="MscrmControls.WebsitePreview.PreviewControl" displayName="MscrmControls.WebsitePreview.PreviewControl" solution="CustomControlsCore (9.1.0000.15941)" />
+        <Required key="0" type="66" schemaName="MscrmControls.WebsitePreview.PreviewControl" displayName="MscrmControls.WebsitePreview.PreviewControl" solution="CustomControlsCore (9.1.0000.17736)" />
         <Dependent key="1" type="60" displayName="Information" parentDisplayName="Exam" id="{9e8b5d15-667b-4da7-93e9-144ee80b6642}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="0" type="66" schemaName="MscrmControls.WebsitePreview.PreviewControl" displayName="MscrmControls.WebsitePreview.PreviewControl" solution="CustomControlsCore (9.1.0000.15941)" />
+        <Required key="0" type="66" schemaName="MscrmControls.WebsitePreview.PreviewControl" displayName="MscrmControls.WebsitePreview.PreviewControl" solution="CustomControlsCore (9.1.0000.17736)" />
         <Dependent key="2" type="60" displayName="Information" parentDisplayName="Card" id="{ed474592-ffdd-4d0a-81eb-161c3b2dc012}" />
       </MissingDependency>
       <MissingDependency>
