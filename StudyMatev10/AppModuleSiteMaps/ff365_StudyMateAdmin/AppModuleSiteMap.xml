@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ff365_StudyMateAdmin</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="New_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Study Mate" />
+      </Titles>
+      <Group Id="New_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Admin" />
+        </Titles>
+        <SubArea Id="NewSubArea_099854ab" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ff365_exam" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_20568293" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="ff365_card" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Study Mate Admin" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

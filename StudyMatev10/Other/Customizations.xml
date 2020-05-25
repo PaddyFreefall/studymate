@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityImageConfigs>
+    <EntityImageConfig>
+      <parententitylogicalname>ff365_card</parententitylogicalname>
+      <primaryimageattribute>ff365_supportingimage</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
+      <parententitylogicalname>ff365_exam</parententitylogicalname>
+      <primaryimageattribute>ff365_logo</primaryimageattribute>
+    </EntityImageConfig>
+  </EntityImageConfigs>
+  <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>ff365_supportingimage</attributelogicalname>
+      <parententitylogicalname>ff365_card</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>ff365_logo</attributelogicalname>
+      <parententitylogicalname>ff365_exam</parententitylogicalname>
+      <canstorefullimage>0</canstorefullimage>
+    </AttributeImageConfig>
+  </AttributeImageConfigs>
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <WebResources />
+  <CustomControls />
+  <AppModuleSiteMaps />
+  <AppModules />
+  <EntityDataProviders />
+  <CanvasApps />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
