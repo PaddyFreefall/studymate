@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ff365_StudyMateAdmin</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ff365_StudyMateAdmin" />
+    <AppModuleComponent type="1" schemaName="ff365_card" />
+    <AppModuleComponent type="1" schemaName="ff365_exam" />
+    <AppModuleComponent type="1" schemaName="ff365_examcategory" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Study Mate Admin" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Admin app for the Study Mate canvas app. Allows users to add there own certifications and flashcards." languagecode="1033" />
+  </Descriptions>
+</AppModule>
