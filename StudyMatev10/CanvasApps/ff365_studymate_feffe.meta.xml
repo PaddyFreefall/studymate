@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>ff365_studymate_feffe</Name>
-  <AppVersion>2020-05-24T21:40:50Z</AppVersion>
+  <AppVersion>2020-05-29T15:12:05Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.20051.17.0</CreatedByClientVersion>
-  <MinClientVersion>3.20051.17.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"dc0bb9fa-65f6-4f22-8583-28a67c300ca7","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20051.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.20053.18.0</CreatedByClientVersion>
+  <MinClientVersion>3.20053.18.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"12c070df-9cc5-4440-b9fd-351f60438db2","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20053.18","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
-  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <BackgroundColor>rgba(1, 60, 96, 1)</BackgroundColor>
   <DisplayName>Study Mate</DisplayName>
-  <Description xsi:nil="true"></Description>
+  <Description>This is a flashcard app used for studying for exams.</Description>
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher></Publisher>
   <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
