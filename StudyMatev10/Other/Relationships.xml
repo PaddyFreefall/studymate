@@ -7,6 +7,8 @@
   <EntityRelationship Name="business_unit_ff365_examcategory" />
   <EntityRelationship Name="ff365_Card_Category_ff365_ExamCategory" />
   <EntityRelationship Name="ff365_ExamCategory_Exam_ff365_Exam" />
+  <EntityRelationship Name="FileAttachment_ff365_Card_ff365_CardTextAudioFile" />
+  <EntityRelationship Name="FileAttachment_ff365_Card_ff365_NameAudioFile" />
   <EntityRelationship Name="lk_ff365_answer_createdby" />
   <EntityRelationship Name="lk_ff365_answer_modifiedby" />
   <EntityRelationship Name="lk_ff365_card_createdby" />
