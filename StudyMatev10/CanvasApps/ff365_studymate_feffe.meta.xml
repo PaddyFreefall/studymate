@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>ff365_studymate_feffe</Name>
-  <AppVersion>2020-07-06T22:42:28Z</AppVersion>
+  <AppVersion>2020-07-14T13:33:09Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.20064.22.0</CreatedByClientVersion>
-  <MinClientVersion>3.20064.22.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"063e17f2-0c73-4ea4-8350-27d0bc9c43a0","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20064.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.20065.16.0</CreatedByClientVersion>
+  <MinClientVersion>3.20065.16.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"028bd297-5634-46ce-85b2-a84e9e8f813f","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.20065.16","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(1, 60, 96, 1)</BackgroundColor>
