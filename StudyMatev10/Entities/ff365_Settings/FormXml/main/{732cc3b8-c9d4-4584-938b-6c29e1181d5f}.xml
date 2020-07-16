@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{732cc3b8-c9d4-4584-938b-6c29e1181d5f}</formid>
+    <IntroducedVersion>1.0.1.5</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{af7f5382-1304-4a97-9a42-3f68199ca6d0}" IsUserDefined="1" name="general" visible="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="35%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f0adf62a-52de-4858-9ed4-39bb5cdcd16f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b15ef599-7ed7-477b-8278-c167f4faf058}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ff365_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ac851e7d-54d1-43b8-9ae1-969154bae704}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_region" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ff365_region" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{250508a8-bfe2-4e54-ab65-b860ed95ca0e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Subscription Key" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_subscriptionkey" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ff365_subscriptionkey" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="65%">
+              <sections>
+                <section name="general_Description" id="1e6c5006-378a-4a29-9a79-47bdedcd5960" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="DESCRIPTION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4f93aaaa-4bf5-4f60-be9c-e26dbfe6edb2}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ff365_description" disabled="false" uniqueid="{5ea19960-392d-d3b8-d52a-41561ad53868}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6436ab85-0299-4583-91d5-5b96555b2c04}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ed2bd12a-5fe7-4ca9-8228-a0787069fb2f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e8339ca8-7cf4-4657-a672-57d0ee717535}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9d20090d-b13d-45b6-82c0-d4cd05db455a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1c0c352f-5c90-4e59-ae7a-c77b55747cc8}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{fcb51e06-20ec-430f-a3f8-ae47375e481e}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{2cd34e43-80c3-4f1f-b0ab-3b3fe575cceb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{480bf5de-676a-481e-9c80-d741469a6a1b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2e0e1e8a-e488-4300-abef-96775cf4de84}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b4d67e2c-b6da-4f6a-9cce-a783e4877548}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{66f78986-e198-4d4c-b8cf-95eae5d84a3a}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+            </cell>
+            <cell id="{5acef9ed-b84d-4c5f-962d-98c3f633a3c6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+            </cell>
+            <cell id="{6e61c5c8-3d58-4965-b19d-401c3476c4a1}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{818e2b49-e1e8-49d9-9b1d-38b26a01d878}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Azure Settings" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
