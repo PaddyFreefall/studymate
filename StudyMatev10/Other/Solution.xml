@@ -6,7 +6,7 @@
       <LocalizedName description="Study Mate v1.0" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.1.5</Version>
+    <Version>1.0.1.6</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>freefall365</UniqueName>
@@ -83,10 +83,12 @@
       <RootComponent type="1" schemaName="ff365_certification" behavior="0" />
       <RootComponent type="1" schemaName="ff365_exam" behavior="0" />
       <RootComponent type="1" schemaName="ff365_examcategory" behavior="0" />
+      <RootComponent type="1" schemaName="ff365_settings" behavior="0" />
       <RootComponent type="9" schemaName="ff365_cardtype" behavior="0" />
       <RootComponent type="29" id="{450246ff-9cb5-ea11-a812-000d3a7f1b13}" behavior="0" />
       <RootComponent type="29" id="{5969b85f-f9b7-ea11-a812-000d3a7f1b13}" behavior="0" />
       <RootComponent type="29" id="{7e359a3e-326c-ea11-a812-000d3a86ba0b}" behavior="0" />
+      <RootComponent type="60" id="{732cc3b8-c9d4-4584-938b-6c29e1181d5f}" behavior="0" />
       <RootComponent type="61" schemaName="ff365_CardsOk-WF.png" behavior="0" />
       <RootComponent type="61" schemaName="ff365_CardsOk-WF.svg" behavior="0" />
       <RootComponent type="61" schemaName="ff365_CardsOk-WF16.png" behavior="0" />
@@ -101,7 +103,9 @@
       <RootComponent type="61" schemaName="ff365_Check-01-WF16.png" behavior="0" />
       <RootComponent type="61" schemaName="ff365_Graduate.png" behavior="0" />
       <RootComponent type="61" schemaName="ff365_Graduate.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ff365_microsoft_azure-icon.svg" behavior="0" />
       <RootComponent type="62" schemaName="ff365_StudyMateAdmin" behavior="0" />
+      <RootComponent type="70" id="{1e4355f2-5ac7-ea11-a812-000d3a7f1b13}" behavior="0" />
       <RootComponent type="80" schemaName="ff365_StudyMateAdmin" behavior="0" />
       <RootComponent type="300" schemaName="ff365_studymate_feffe" behavior="0" />
       <RootComponent type="431" schemaName="ff365_card ff365_supportingimage" behavior="0" />

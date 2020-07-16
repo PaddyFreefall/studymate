@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{d36fbf8c-53c7-ea11-a812-000d3a7f1b13}</WebResourceId>
+  <Name>ff365_microsoft_azure-icon.svg</Name>
+  <DisplayName>microsoft_azure-icon.svg</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ff365_microsoft_azure-iconsvgD36FBF8C-53C7-EA11-A812-000D3A7F1B13</FileName>
+</WebResource>

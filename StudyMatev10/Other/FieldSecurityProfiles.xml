@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldSecurityProfiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FieldSecurityProfile name="System Administrators" fieldsecurityprofileid="{1e4355f2-5ac7-ea11-a812-000d3a7f1b13}">
+    <FieldPermissions>
+      <FieldPermission>
+        <EntityName>ff365_settings</EntityName>
+        <AttributeName>ff365_subscriptionkey</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+      </FieldPermission>
+    </FieldPermissions>
+  </FieldSecurityProfile>
+</FieldSecurityProfiles>

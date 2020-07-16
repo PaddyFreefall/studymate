@@ -5,6 +5,7 @@
   <EntityRelationship Name="business_unit_ff365_certification" />
   <EntityRelationship Name="business_unit_ff365_exam" />
   <EntityRelationship Name="business_unit_ff365_examcategory" />
+  <EntityRelationship Name="business_unit_ff365_settings" />
   <EntityRelationship Name="ff365_Card_Category_ff365_ExamCategory" />
   <EntityRelationship Name="ff365_ExamCategory_Exam_ff365_Exam" />
   <EntityRelationship Name="FileAttachment_ff365_Card_ff365_CardTextAudioFile" />
@@ -19,19 +20,24 @@
   <EntityRelationship Name="lk_ff365_exam_modifiedby" />
   <EntityRelationship Name="lk_ff365_examcategory_createdby" />
   <EntityRelationship Name="lk_ff365_examcategory_modifiedby" />
+  <EntityRelationship Name="lk_ff365_settings_createdby" />
+  <EntityRelationship Name="lk_ff365_settings_modifiedby" />
   <EntityRelationship Name="owner_ff365_answer" />
   <EntityRelationship Name="owner_ff365_card" />
   <EntityRelationship Name="owner_ff365_certification" />
   <EntityRelationship Name="owner_ff365_exam" />
   <EntityRelationship Name="owner_ff365_examcategory" />
+  <EntityRelationship Name="owner_ff365_settings" />
   <EntityRelationship Name="team_ff365_answer" />
   <EntityRelationship Name="team_ff365_card" />
   <EntityRelationship Name="team_ff365_certification" />
   <EntityRelationship Name="team_ff365_exam" />
   <EntityRelationship Name="team_ff365_examcategory" />
+  <EntityRelationship Name="team_ff365_settings" />
   <EntityRelationship Name="user_ff365_answer" />
   <EntityRelationship Name="user_ff365_card" />
   <EntityRelationship Name="user_ff365_certification" />
   <EntityRelationship Name="user_ff365_exam" />
   <EntityRelationship Name="user_ff365_examcategory" />
+  <EntityRelationship Name="user_ff365_settings" />
 </EntityRelationships>
