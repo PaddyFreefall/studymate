@@ -1,0 +1,71 @@
+<entities >
+  <entity name="ff365_answer" displayname="Answer" etc="10038" primaryidfield="ff365_answerid" primarynamefield="ff365_name" disableplugins="false">
+    <fields>
+      <field displayname="Answer" name="ff365_answerid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="ff365_name" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="ff365_settings" displayname="Azure Setting" etc="10056" primaryidfield="ff365_settingsid" primarynamefield="ff365_name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="ff365_description" type="string" customfield="true" />
+      <field displayname="Name" name="ff365_name" type="string" customfield="true" />
+      <field displayname="Region" name="ff365_region" type="string" customfield="true" />
+      <field displayname="Settings" name="ff365_settingsid" type="guid" primaryKey="true" />
+      <field displayname="Subscription Key" name="ff365_subscriptionkey" type="string" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="ff365_card" displayname="Card" etc="10039" primaryidfield="ff365_cardid" primarynamefield="ff365_name" disableplugins="false">
+    <fields>
+      <field displayname="Card" name="ff365_cardid" type="guid" primaryKey="true" />
+      <field displayname="Card Number" name="ff365_cardnumber" type="string" customfield="true" />
+      <field displayname="Card Text" name="ff365_cardtext" type="string" customfield="true" />
+      <field displayname="Card Type" name="ff365_cardtype" type="optionsetvalue" customfield="true" />
+      <field displayname="Category" name="ff365_category" type="entityreference" lookupType="ff365_examcategory" customfield="true" />
+      <field displayname="ff365_cardtextaudiofile_name" name="ff365_cardtextaudiofile_name" type="string" customfield="true" />
+      <field displayname="ff365_categoryname" name="ff365_categoryname" type="string" customfield="true" />
+      <field displayname="ff365_nameaudiofile_name" name="ff365_nameaudiofile_name" type="string" customfield="true" />
+      <field displayname="ff365_supportingimage_timestamp" name="ff365_supportingimage_timestamp" type="bigint" customfield="true" />
+      <field displayname="ff365_supportingimage_url" name="ff365_supportingimage_url" type="string" customfield="true" />
+      <field displayname="ff365_supportingimageid" name="ff365_supportingimageid" type="guid" customfield="true" />
+      <field displayname="Last Viewed" name="ff365_lastviewed" type="datetime" customfield="true" />
+      <field displayname="Name" name="ff365_name" type="string" customfield="true" />
+      <field displayname="Source Description" name="ff365_sourcedescription" type="string" customfield="true" />
+      <field displayname="Source URL" name="ff365_sourceurl" type="string" customfield="true" />
+      <field displayname="Supporting Image" name="ff365_supportingimage" type="imagedata" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="ff365_certification" displayname="Certification" etc="10040" primaryidfield="ff365_certificationid" primarynamefield="ff365_name" disableplugins="false">
+    <fields>
+      <field displayname="Certification" name="ff365_certificationid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="ff365_name" type="string" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="ff365_exam" displayname="Exam" etc="10041" primaryidfield="ff365_examid" primarynamefield="ff365_name" disableplugins="false">
+    <fields>
+      <field displayname="Exam" name="ff365_examid" type="guid" primaryKey="true" />
+      <field displayname="ff365_logo_timestamp" name="ff365_logo_timestamp" type="bigint" customfield="true" />
+      <field displayname="ff365_logo_url" name="ff365_logo_url" type="string" customfield="true" />
+      <field displayname="ff365_logoid" name="ff365_logoid" type="guid" customfield="true" />
+      <field displayname="Logo" name="ff365_logo" type="imagedata" customfield="true" />
+      <field displayname="Name" name="ff365_name" type="string" customfield="true" />
+      <field displayname="Reference" name="ff365_reference" type="string" customfield="true" />
+      <field displayname="Website" name="ff365_website" type="string" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="ff365_examcategory" displayname="Exam Category" etc="10042" primaryidfield="ff365_examcategoryid" primarynamefield="ff365_name" disableplugins="false">
+    <fields>
+      <field displayname="Exam" name="ff365_exam" type="entityreference" lookupType="ff365_exam" customfield="true" />
+      <field displayname="Exam Category" name="ff365_examcategoryid" type="guid" primaryKey="true" />
+      <field displayname="ff365_examname" name="ff365_examname" type="string" customfield="true" />
+      <field displayname="Name" name="ff365_name" type="string" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+</entities>
