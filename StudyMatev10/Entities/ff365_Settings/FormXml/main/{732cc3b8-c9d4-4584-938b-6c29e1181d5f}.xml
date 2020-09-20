@@ -20,11 +20,19 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{b15ef599-7ed7-477b-8278-c167f4faf058}">
+                      <cell id="{b15ef599-7ed7-477b-8278-c167f4faf058}" visible="false">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="ff365_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ff365_name" disabled="true" />
+                        <control id="ff365_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ff365_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abefc612-da8b-4a79-8c0d-339e19bd4d7e}" locklevel="0">
+                        <labels>
+                          <label description="Setting Name" languagecode="1033" />
+                        </labels>
+                        <control id="ff365_settingname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ff365_settingname" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -148,7 +156,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

@@ -4,6 +4,8 @@
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <WebResourceId>640c0172-bda1-ea11-a812-000d3a0bad7c</WebResourceId>
   <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
   <FormFactor>1</FormFactor>
   <ClientType>4</ClientType>
   <NavigationType>0</NavigationType>
