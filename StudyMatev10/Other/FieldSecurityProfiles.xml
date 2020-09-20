@@ -4,6 +4,13 @@
     <FieldPermissions>
       <FieldPermission>
         <EntityName>ff365_settings</EntityName>
+        <AttributeName>ff365_settingname</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+      </FieldPermission>
+      <FieldPermission>
+        <EntityName>ff365_settings</EntityName>
         <AttributeName>ff365_subscriptionkey</AttributeName>
         <CanRead>4</CanRead>
         <CanUpdate>4</CanUpdate>
