@@ -1,7 +1,7 @@
 # studymate
 A Power Platform solution to help users study for certifications/exams.
 
-Full installation instructions and feature demonstration can be found in the following video - https://youtu.be/2ESGruflE9s
+Full installation instructions and feature demonstration can be found in the following video - https://youtu.be/gEj7DVvQLgY.
 
 Installation steps - 
 
